@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Encuestados.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> Pagina para encuestas</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="pencuesta.css" rel="stylesheet" />
+    <link href="princiapl.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="Menuprincipal">
+        
+         <img src="icono.jpeg" width="200" height="200">
+        <a href="Inicio.ASPX" class="buttoninicio">inicio</a>
+        <a href="encuesta.ASPX" class="botonencuesta">encuesta </a>
+  
+</div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        
+    </form>
+</body>
+</html>
